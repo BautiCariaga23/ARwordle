@@ -74,3 +74,14 @@ button:hover{
         transform: scale(1);
     }
 }
+@keyframes spaceAnimBack{
+    0%{
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0);
+    }
+    99%{
+        transform: scaleY(1);
+    }
+}
