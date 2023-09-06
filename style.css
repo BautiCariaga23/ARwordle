@@ -60,6 +60,9 @@ button{
     color: white;
     font-weight: 500;
 }
+button:hover{
+    cursor: pointer;
+}
 @keyframes spaceAnim{
     0%{
         transform: scale(1);
