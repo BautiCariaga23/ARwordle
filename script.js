@@ -99,7 +99,7 @@ function DeleteLetter(){
 window.addEventListener("keyup", ()=>{
     if(event.keyCode != 8 && event.keyCode != 13){
         //Si no es ni enter ni backspace
-        AddLetter()
+        if(event.keyCode >=65 && event.keyCode <=90)AddLetter()
         
     }else if (event.keyCode == 8){ //backspace
         DeleteLetter()
